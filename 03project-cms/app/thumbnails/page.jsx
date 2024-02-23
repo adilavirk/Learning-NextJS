@@ -28,7 +28,7 @@ export default function Page() {
                             thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null
                     }}
                     modules={[FreeMode, Navigation, Thumbs]}
-                    className='h-96 w-full rounded-lg'
+                    className='h-96 w-3/4 rounded-lg'
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -52,7 +52,7 @@ export default function Page() {
                     freeMode={true}
                     watchSlidesProgress={true}
                     modules={[FreeMode, Navigation, Thumbs]}
-                    className='thumbs mt-3 h-32 w-full rounded-lg'
+                    className='thumbs mt-3 h-40 w-3/4 rounded-lg'
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>

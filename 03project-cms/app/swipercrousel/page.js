@@ -18,7 +18,7 @@ const ImageGallery = () => {
           navigation
           pagination={{ type: "fraction" }}
           modules={[Navigation, Pagination]}
-          className="h-96 w-full rounded-lg"
+          className="h-96 w-2/4 rounded-lg"
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>

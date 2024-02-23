@@ -50,7 +50,7 @@ export default function Page() {
                 <Swiper
                     spaceBetween={10}
                     onSwiper={setSwiper}
-                    className='h-96 w-full rounded-lg'
+                    className='h-96 w-3/4 rounded-lg'
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>
