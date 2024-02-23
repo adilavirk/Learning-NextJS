@@ -1,9 +1,9 @@
-import SliderSlick from "./(components)/SliderSlick";
+import ImageGallery from "./(components)/ImageGallery";
 
 export default function Home() {
   return (
     <main>
-      <SliderSlick />
+      <ImageGallery />
     </main>
   );
 }
